@@ -1,4 +1,48 @@
 /* Write your CSS below. */
+body {
+  background-color: skyblue;
+  font-weight: 200;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  
+}
+.p-tag { color: slateblue;
+
+}
+
+.languages {
+  color: aqua;
+}
+
+h2{
+  text-align: center;
+}
+ul{
+  list-style: square;
+  font-style: italic;
+}
+.active{
+  color:hotpink;
+}
+.first{
+  border: 1px solid black;
+  background-color: lightblue;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+#example{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px red;
+  width: 500px
+
+}
+
+
+
+
 
 /* Do not change any CSS below this line. */
 
