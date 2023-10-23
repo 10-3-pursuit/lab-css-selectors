@@ -1,5 +1,62 @@
 /* Write your CSS below. */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mohave&display=swap');
 
+
+a:link {
+     color: blue;
+}
+
+a:visited {
+     color: red;
+}
+
+a:hover {
+     color: green;
+}
+
+a:active {
+     color: yellow;
+}
+
+body {
+  background-color: silver;
+  font-family: Mohave;
+  font-size: large;
+}
+
+h1,
+h2,
+h3 {
+  text-decoration: underline;
+}
+
+h1 {
+  color: indianred;
+}
+
+h2 {
+  color: cornflowerblue;
+}
+
+h3 {
+  color: aliceblue;
+}
+
+img {
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+
+ol {
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 30px;
+}
 /* Do not change any CSS below this line. */
 
 :root {
