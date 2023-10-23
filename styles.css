@@ -68,7 +68,7 @@ ul {
 
 .libraries li {
   color: white;
-  background-color: teal;
+  background-color: var(--line-blue);
   border-radius: 5px;
   list-style-type: none;
   padding: 10px 10px 10px 10px;
@@ -91,25 +91,31 @@ ul {
   box-shadow: none;
 }
 
-.links li {
+#outside-sites {
   column-count: 4;
+  text-align: center;
+}
+
+.links li {
   background-color: gold;
   border-radius: 5px;
   list-style-type: none;
-  height: 50px;
-  width: 175px;
-  padding: 10px 10px 10px 10px;
-  text-align: center;
+  height: 40px;
+  width: 100px;
+  padding: 10px 10px 0px 10px;
 }
 
 .links a {
   color: white;
   text-decoration: none;
+  vertical-align: middle;
 }
 
 footer a {
   color: white;
+  text-align: left;
   padding: 15px 15px 15px 15px;
+  margin: 10px 10px 10px 0px;
 }
 
 /* Do not change any CSS below this line. */
