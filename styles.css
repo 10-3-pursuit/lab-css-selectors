@@ -68,7 +68,7 @@ ul {
 
 .libraries li {
   color: white;
-  background-color: teal;
+  background-color: var(--line-blue);
   border-radius: 5px;
   list-style-type: none;
   padding: 10px 10px 10px 10px;
@@ -102,7 +102,7 @@ ul {
   list-style-type: none;
   height: 40px;
   width: 100px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 0px 10px;
 }
 
 .links a {
@@ -113,7 +113,9 @@ ul {
 
 footer a {
   color: white;
+  text-align: left;
   padding: 15px 15px 15px 15px;
+  margin: 10px 10px 10px 0px;
 }
 
 /* Do not change any CSS below this line. */
