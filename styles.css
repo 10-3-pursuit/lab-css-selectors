@@ -70,7 +70,7 @@ body {
   box-shadow: var(--dark-box-shadowing);
   list-style: none;
   display: inline-table;
-  margin-left: 80px;
+  margin-left: 200px;
 }
 
 .libra-list {
@@ -85,12 +85,12 @@ body {
   box-shadow: var(--dark-box-shadowing);
   list-style: none;
   display:inline-table;
-  margin-left: 80px;
+  margin-left: 200px;
 }
 
 .libra-list:last-child {
   display: block;
-  margin-left: 300px;
+  margin-left: 600px;
 }
 
 .footer-sec {
