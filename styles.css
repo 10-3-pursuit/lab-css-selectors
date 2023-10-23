@@ -1,4 +1,7 @@
 /* Write your CSS below. */
+h1 {
+  align-items: center;
+}
 
 /* Do not change any CSS below this line. */
 
@@ -87,8 +90,8 @@ p {
 }
 
 p {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 
 p {
