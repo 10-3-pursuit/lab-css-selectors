@@ -91,20 +91,24 @@ ul {
   box-shadow: none;
 }
 
-.links li {
+#outside-sites {
   column-count: 4;
+  text-align: center;
+}
+
+.links li {
   background-color: gold;
   border-radius: 5px;
   list-style-type: none;
-  height: 50px;
-  width: 175px;
+  height: 40px;
+  width: 100px;
   padding: 10px 10px 10px 10px;
-  text-align: center;
 }
 
 .links a {
   color: white;
   text-decoration: none;
+  vertical-align: middle;
 }
 
 footer a {
