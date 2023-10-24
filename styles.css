@@ -28,7 +28,7 @@ img {
 
 .background-story p {
   text-align: left;
-  font-size: 16px;
+  font-size: normal;
   font-weight: normal;
   background: none;
   border: none;
@@ -64,7 +64,6 @@ ul {
 .libraries {
   column-count: 3;
 }
-
 
 .libraries li {
   color: white;
