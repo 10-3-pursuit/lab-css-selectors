@@ -9,43 +9,51 @@
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
   </head>
   <body>
-    <h1>Your Name Here</h1>
+    <h1>Enoch Tagoe</h1>
     <div>
-      <p>
+      <h4 id="first-p">
         This is a bunch of information about myself. I'm from here and there and
         discovered my love of programming when this happened. When I'm not
         working I'm busy doing this and that.
-      </p>
+      </h4>
     </div>
 
-    <img src="./assets/avatar-gfe7eab2c5_640.png" alt="Profile photo" />
+    <img class="photo"
+    src="./assets/avatar-gfe7eab2c5_640.png" alt="Profile photo" />
 
     <div>
       <h2>Here are some of my Skills!</h2>
 
+      <fieldset> 
       <h3 class="languages">Languages</h3>
+      
       <ul>
         <li>JavaScript</li>
         <li>SQL</li>
         <li>HTML5</li>
         <li>CSS3</li>
       </ul>
+    </fieldset>
 
+      <fieldset> 
       <h3>Libraries</h3>
       <ul class="libraries">
         <li>React</li>
         <li>Node</li>
         <li>Bootstrap</li>
       </ul>
+  
+    </fieldset>
+
     </div>
 
     <div>
       <h2>Hardest Bug So Far</h2>
-      <p>
+      <h4 class="p-tag">
         My hardest bug I ever came across was this infinite loop I couldn't
         escape.
-      </p>
-      <p>I came up with a totally sick solution though by doing ...</p>
+      </h4>
+      <h4 class="p-tag">I came up with a totally sick solution though by doing ...</h4>
     </div>
 
     <ul class="links">
@@ -61,11 +69,14 @@
         <h4>Email me at:</h4>
         <a href="#" target="_top">hello@pursuit.org</a>
       </div>
+      
+        <fieldset> 
       <form>
         <label>Provide feedback:</label>
         <input type="text" name="" value="" />
         <input type="submit" name="submit" value="submit" />
       </form>
+    </fieldset>
     </footer>
   </body>
 </html>

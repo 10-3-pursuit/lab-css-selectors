@@ -1,5 +1,64 @@
 /* Write your CSS below. */
 
+body {
+  accent-color: blue;
+  background-color: transparent;
+  box-shadow: #104e6e;
+}
+
+
+#first p {
+  color: darkblue;
+  font-weight: 100;
+  font-size: 25px;
+}
+.p-tag {
+  border: 3px solid;
+  text-align: center;
+  }
+img {
+  display: block;
+  height: 200px;
+  }
+  .photo {
+    margin: 0 auto;
+    padding: 30px;
+    margin-trim: 25px;
+    border-color: deepskyblue;
+  }
+  .languages {
+    font-size: medium;
+    font-style: italic;
+    color: rgb(52, 43, 226);
+    
+  }
+  .libraries {
+    font-size: medium;
+    font-style: italic;
+    color: purple;
+  }
+
+p {
+  color:goldenrod
+}
+a:hover {
+  color:aqua;
+}
+
+::-moz-list-bullet
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Do not change any CSS below this line. */
 
 :root {
