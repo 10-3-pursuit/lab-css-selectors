@@ -53,7 +53,7 @@ li {
   background-color: #d9ffa9;
   color: rgb(0, 0, 0);
   padding-left: 10px;;
-
+  align-items: center;
 }
 .list-box-yellow {
  font-weight: bold;
@@ -79,7 +79,13 @@ li {
   margin: 1em;
   list-style-type: none;
  }
+ .links li {
+  display: inline;
 
+ }
+.container {
+  text-align: center;
+}
 
 /* Do not change any CSS below this line. */
 
