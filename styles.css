@@ -1,5 +1,93 @@
 /* Write your CSS below. */
 
+body {
+  background-color: #445D48;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  -webkit-text-stroke: 1px grey;
+
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px 0px 20px 0px;
+}
+
+
+h3 {
+  text-align: center;
+}
+
+
+ul,
+ol,
+li {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+img {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  border: 10px solid black;
+}
+
+a,
+a:active,
+a:visited {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: sandybrown;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.items {
+  display:block;
+  border: 2px solid grey;
+  padding: 20px 0;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: white;
+}
+
+#contact-me {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-me-box {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #445D48;
+}
+
+.globes {
+  color: black;
+  background-color: beige;
+  border: 2px solid black;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px 0px;
+  background-image: url('');
+}
+
+
 /* Do not change any CSS below this line. */
 
 :root {
