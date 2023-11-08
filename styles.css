@@ -1,5 +1,63 @@
 /* Write your CSS below. */
+img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
 
+#first-p {
+  color: red;
+  font-style: oblique;
+  border-radius: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  list-style-type: none;
+}
+
+.active p {
+  color: red;
+  font-style: oblique;
+}
+
+p.hardest-bug {
+  text-emphasis-color: red;
+  font-style: oblique;
+  border-radius: 1000px;
+  padding-bottom: 1px;
+  text-align: center;
+  text-decoration: none;
+}
+
+p.sick-solution {
+  text-emphasis-color: red;
+  font-style: oblique;
+  border-radius: 1000px;
+  padding-bottom: 1px;
+  text-align: center;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  font-family: Cambria;
+  color: aquamarine;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
 /* Do not change any CSS below this line. */
 
 :root {
